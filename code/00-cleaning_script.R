@@ -1,10 +1,11 @@
 # libraries
 library(tidyverse)
+library(here)
 
 # data
 # this is the google sheet of responses without timestamp, location, name, image file columns (taken out in Excel)
 
-hs <- read_csv("holiday_sweaters.csv") %>% 
+hs <- read_csv(here::here("data", "holiday_sweaters.csv")) %>% 
   
   # column names
   rename("hs_tf" = 'Do you have a holiday sweater?',
@@ -21,5 +22,5 @@ hs <- read_csv("holiday_sweaters.csv") %>%
   mutate(sweater = paste("sweater", sweater, sep = "")) 
 
 # write csv
-write_csv(hs, "holiday_sweaters-clean.csv")
+write_csv(hs, here::here("data", "holiday_sweaters-clean.csv"))
 
