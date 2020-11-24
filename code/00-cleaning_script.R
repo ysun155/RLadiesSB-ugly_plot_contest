@@ -20,6 +20,9 @@ hs <- read_csv(here::here("data", "holiday_sweaters.csv")) %>%
   # sweater number
   rownames_to_column("sweater") %>% 
   mutate(sweater = paste("sweater", sweater, sep = "")) 
+  
+  # separate colors column into rows by colors
+  # %>% separate_rows(colors, sep = c(", "))
 
 # write csv
 write_csv(hs, here::here("data", "holiday_sweaters-clean.csv"))
