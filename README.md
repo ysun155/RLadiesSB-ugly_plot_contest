@@ -25,7 +25,7 @@ Wednesday 16 December 2020, 5:30 Pacific Time ([Meetup link](https://www.meetup.
 - [Google slides from event](https://docs.google.com/presentation/d/1uocbnds9ltYGtVnI3tBrAwFyS65vyIJj0eA3vSw5dbc/edit?usp=sharing)
 - [A very, very ugly ggplot2](https://gist.github.com/emilyriederer/2bf4f67d7e198f8359b61706c82e42ee ) to demonstrate the wide variety of ggplot2 theme() options, by [Emily Reiderer](https://emilyriederer.netlify.app/about/) at Capital One
 - [R Colors](https://stat.columbia.edu/~tzheng/files/Rcolor.pdf), compiled by [Tian Zheng](http://www.stat.columbia.edu/~tzheng/) at Columbia University
-- [ggplot2 grammar guide](https://evamaerey.github.io/ggplot2_grammar_guide/about) by G[ina Reynolds](https://evangelinereynolds.netlify.app/) at University of Denver
+- [ggplot2 grammar guide](https://evamaerey.github.io/ggplot2_grammar_guide/about) by [Gina Reynolds](https://evangelinereynolds.netlify.app/) at University of Denver
 
 
 
