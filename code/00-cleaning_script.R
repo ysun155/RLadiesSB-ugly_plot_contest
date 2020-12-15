@@ -5,7 +5,7 @@ library(here)
 # data
 # this is the google sheet of responses without timestamp, location, name, image file columns (taken out in Excel)
 
-hs <- read_csv(here::here("data", "holiday_sweaters-2020-12-08.csv")) %>% 
+hs <- read_csv(here::here("data/old", "holiday_sweaters-2020-12-15.csv")) %>% 
   
   # column names
   rename("hs_tf" = 'Do you have a holiday sweater?',
@@ -25,5 +25,5 @@ hs <- read_csv(here::here("data", "holiday_sweaters-2020-12-08.csv")) %>%
   # separate_rows(colors, sep = c(", "))
 
 # write csv
-write_csv(hs, here::here("data", "holiday_sweaters-2020-12-08-clean.csv"))
+write_csv(hs, here::here("data/use_this_data", "holiday_sweaters-2020-12-15-clean.csv"))
 
