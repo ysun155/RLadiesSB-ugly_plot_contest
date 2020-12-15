@@ -19,6 +19,7 @@ Wednesday 16 December 2020, 5:30 Pacific Time ([Meetup link](https://www.meetup.
 
 - event_image.jpg: event header, drawn by An
 - sample-plot.jpg: output from **01-sample-code.R**
+![the-most-beautiful-plot](https://github.com/an-bui/RLadiesSB-ugly_plot_contest/blob/main/figures/sample-plot.jpg)
 
 ## Other materials and resources
 
