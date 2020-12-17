@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # potentially useful function: read_csv
-sweaters <- read_csv(here::here("data", "holiday_sweaters-2020-12-08-clean.csv")) %>% 
+sweaters <- read_csv(here::here("data/use_this_data", "holiday_sweaters-2020-12-15-clean.csv")) %>% 
   filter(hs_tf == "Yes") %>% 
   # potentially useful function: separate colors column into rows
   separate_rows(colors, sep = c(", ")) %>% 
